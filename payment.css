@@ -334,3 +334,118 @@ span {
   }
 }
 
+
+
+
+
+
+
+/* form container code */
+
+
+.form-container {
+  background: #a58181;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font: var(--snd-bg-color);
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #6c63ff;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold var(--bg-color);
+  margin-bottom: 5px;
+
+
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #040404;
+  /* font: var(--snd-bg-color); */
+  border: 2px solid #6c63ff;
+  border-radius: 5px;
+  font-size: 16px var(--bg-color);
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #42e695;
+  box-shadow: 0 0 5px rgba(66, 230, 149, 0.5);
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  width: 100%;
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: #42e695;
+}
+
+
+.gender-options {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.gender-options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #6c63ff; /* Custom radio button color */
+  cursor: pointer;
+}
+
+
+
+
+select[multiple] {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #6c63ff;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+select[multiple]:focus {
+  border-color: #42e695;
+  box-shadow: 0 0 5px rgba(66, 230, 149, 0.5);
+}
